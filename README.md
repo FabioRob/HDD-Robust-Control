@@ -14,3 +14,5 @@ Responses(PES,u) to step reference and disturb(0.0005 Nm) , both nominal and for
 Nominal Performance, Robust Stability and Robust Performance analysis are performed in cl_analysis.m, LQG_analysis.m, LTR_analysis.m, Hinf_analysis.m, mu_analysis.m and NP_RS_RP_comparison.m
 
 In addition, MaxPert_inf.m and MaxPert_mu.m computes the worst perturbation cases for the controlled plant in terms of Robust Stability and Robust Performance.
+
+Finally , the parameters necessary to use the GUI HDD_controllerDesign.mlapp are initialized with init.mat
